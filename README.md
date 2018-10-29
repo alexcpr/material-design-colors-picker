@@ -39,3 +39,9 @@ Go to ```about:debugging``` and click on ```Load a temporary module``` then navi
 *   [Material Design](https://material.io/guidelines/style/color.html) - For the colors in the palette.
 *   [Font Awesome](http://fontawesome.io/) For the icons.
 *   [Clipboard.js](https://clipboardjs.com/) To copy into your clipboard.
+
+## Build
+
+In order to build ```app.min.css``` you must minify ```app.css``` using [csso](https://css.github.io/csso/csso.html).
+
+In order to build ```picker.min.js``` you must transpil ```picker.js``` to ES5 with [babel](https://babeljs.io/) and then minify ```picker.js``` using [jscompress](https://jscompress.com/).
