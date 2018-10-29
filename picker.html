@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Material Design Colors Picker</title>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
+  <link defer rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+  <link defer rel="stylesheet" href="css/app.min.css" type="text/css">
+  <script defer src="js/clipboard.min.js"></script>
+  <script defer src="js/picker.min.js"></script>
+</head>
+
+<body>
+  <div class="pallete">
+    <header class="header">
+      <h1>
+        Material Design Colors Picker
+      </h1>
+      <span class="alert" id="alert"></span>
+    </header>
+    <div class="container">
+      <div class="main">
+        <div class="colors"></div>
+        <div class="variations"></div>
+        <div class="options small">
+          <div class="option">
+            <input type="radio" name="output" value="hashHex" checked>
+            <label>#HEX</label>
+          </div>
+          <div class="option">
+            <input type="radio" name="output" value="hex">
+            <label>HEX</label>
+          </div>
+          <div class="option">
+            <input type="radio" name="output" value="rgb">
+            <label>RGB</label>
+          </div>
+          <div class="option">
+            <input type="radio" name="output" value="rgba">
+            <label>RGBA</label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
