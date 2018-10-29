@@ -8,9 +8,7 @@
 
 Comming soon.
 
-### Download from the Firefox Add-ons store
-
-Comming soon.
+### [Download from the Firefox Add-ons store](https://addons.mozilla.org/en-US/firefox/addon/material-design-colors-picker/)
 
 ### Install locally
 
