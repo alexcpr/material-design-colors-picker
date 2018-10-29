@@ -457,20 +457,15 @@ function init(output) {
 function color(hex, output) {
     switch (output) {
         case 'hashHex':
-            var convertedHex = hex
-            break
+            return hex
         case 'hex':
-            var convertedHex = toHex(hex)
-            break
+            return toHex(hex)
         case 'rgb':
-            var convertedHex = toRGB(hex)
-            break
+            return toRGB(hex)
         case 'rgba':
-            var convertedHex = toRGBA(hex)
-            break
+            return toRGBA(hex)
         default:
-            var convertedHex = hex
-            break
+            return hex
     }
     return convertedHex
 }
