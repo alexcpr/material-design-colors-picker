@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 0;
+  background: #ECEFF1;
+  width: 800px;
+  overflow: hidden;
+}
+
+.palette {
+  width: 800px;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.pallete .container {
+  padding: 0;
+}
+
+.pallete .main {
+  width: 100%;
+}
+
+.container {
+  z-index: 8;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 10px 25px;
+  z-index: 9;
+  background: #000;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+
+.header h1 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.main {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.colors {
+  max-width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.variations {
+  display: flex;
+  flex-direction: row;
+}
+
+.colorset {
+  display: flex;
+  flex-direction: column;
+}
+
+.color {
+  background: #fff;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: pre-wrap;
+  text-align: center;
+  height: 42.10526315789px;
+  width: 42.10526315789px;
+  font-size: 10px;
+  color: #000;
+  text-shadow: none;
+  overflow: hidden;
+}
+
+.color {
+  font-weight: 300;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
+  transition: all .2s;
+  cursor: pointer;
+  color: #fff;
+}
+
+.color:hover {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  transform: scale(1.15);
+}
+
+.color:active {
+  transform: scale(0.95);
+}
+
+.options {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.options .option {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.options.small {
+  width: 50%;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.options.small .option {
+  padding: 0 5px;
+}
+
+.options.small .option label {
+  transition: all .2s;
+  cursor: pointer;
+  padding: 0px 5px;
+}
+
+.options.small input:checked~label {
+  background: #000;
+  font-weight: bold;
+  padding: 0px 5px;
+  color: #fff;
+  border-radius: 10%;
+}
