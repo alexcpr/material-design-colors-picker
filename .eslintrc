@@ -1,0 +1,15 @@
+{
+    "parserOptions": {
+        "ecmaVersion": 2017
+    },
+    "env": {
+        "es6": true
+    },
+    "globals": {
+        "document": true,
+        "window": true
+    },
+    "extends": [
+        "plugin:prettier/recommended"
+    ]
+}
