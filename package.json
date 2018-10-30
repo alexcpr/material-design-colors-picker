@@ -1,0 +1,40 @@
+{
+  "name": "material-design-colors-picker",
+  "version": "1.0.2",
+  "description": "Quick and easy extension to quickly copy a color from the Google Material design color palette.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint js/picker.js --fix",
+    "build": "gulp",
+    "build-js": "gulp js",
+    "build-css": "gulp css",
+    "watch": "gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/binksxela/material-design-colors-picker.git"
+  },
+  "author": "binksxela",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/binksxela/material-design-colors-picker/issues"
+  },
+  "homepage": "https://github.com/binksxela/material-design-colors-picker#readme",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "eslint": "^5.8.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-csso": "^3.0.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-uglify": "^3.0.1",
+    "prettier-eslint": "^8.8.2"
+  }
+}

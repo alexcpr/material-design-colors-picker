@@ -2,6 +2,38 @@
 
 🎨 Quick and easy extension to quickly copy a color from the Google Material design color palette. The extension is compatible with Chrome and Firefox. You can copy in #HEX, HEX, RGB, RGBA formats.
 
+## Build
+
+Install the depencies
+```
+npm install
+```
+
+Lint the JS
+```
+npm run lint
+```
+
+Build the CSS + JS
+```
+npm run build
+```
+
+Build the CSS
+```
+npm run build-css
+```
+
+Build the JS
+```
+npm run build-js
+```
+
+Watch CSS + JS for development
+```
+npm run watch
+```
+
 ## Installation 
 
 ### Download from the Google Chrome store
@@ -37,9 +69,3 @@ Go to ```about:debugging``` and click on ```Load a temporary module``` then navi
 *   [Material Design](https://material.io/guidelines/style/color.html) - For the colors in the palette.
 *   [Font Awesome](http://fontawesome.io/) For the icons.
 *   [Clipboard.js](https://clipboardjs.com/) To copy into your clipboard.
-
-## Build
-
-In order to build ```app.min.css``` you must minify ```app.css``` using [csso](https://css.github.io/csso/csso.html).
-
-In order to build ```picker.min.js``` you must transpil ```picker.js``` to ES5 with [babel](https://babeljs.io/) and then minify ```picker.js``` using [jscompress](https://jscompress.com/).
