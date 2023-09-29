@@ -48,7 +48,7 @@ Comming soon.
 
 Clone the repository like this
 ```
-git clone https://github.com/binksxela/material-design-colors-picker.git
+git clone https://github.com/alexcpr/material-design-colors-picker.git
 ```
 
 Go to ```chrome://extensions``` and check ```Developer mode``` if it isn't already.
@@ -59,7 +59,7 @@ Click ```Load unpacked extension...``` and navigate to the folder where you clon
 
 Clone the repository like this
 ```
-git clone https://github.com/binksxela/material-design-colors-picker.git
+git clone https://github.com/alexcpr/material-design-colors-picker.git
 ```
 
 Go to ```about:debugging``` and click on ```Load a temporary module``` then navigate to the folder where you cloned the repository and choose the ```manifest.json``` file.

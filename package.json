@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/binksxela/material-design-colors-picker.git"
+    "url": "git+https://github.com/alexcpr/material-design-colors-picker.git"
   },
-  "author": "binksxela",
+  "author": "alexcpr",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/binksxela/material-design-colors-picker/issues"
+    "url": "https://github.com/alexcpr/material-design-colors-picker/issues"
   },
-  "homepage": "https://github.com/binksxela/material-design-colors-picker#readme",
+  "homepage": "https://github.com/alexcpr/material-design-colors-picker#readme",
   "devDependencies": {
     "@babel/core": "^7.1.2",
     "@babel/preset-env": "^7.1.0",
